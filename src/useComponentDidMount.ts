@@ -1,7 +1,6 @@
 import { useRef, useEffect } from "react";
 
 type Callback = () => any;
-type AsyncCallback = () => Promise<any>;
 
 const useComponentDidMount = (callback: Callback) => {
   const ref = useRef(callback);
