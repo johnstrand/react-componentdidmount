@@ -1,0 +1,26 @@
+{
+  "name": "usecomponentdidmount",
+  "version": "1.0.0",
+  "description": "A hook to run a callback on mount",
+  "main": "dist/useComponentDidMount.js",
+  "types": "dist/useComponentDidMount.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnstrand/react-componentdidmount"
+  },
+  "scripts": {
+    "build": "node_modules/.bin/tsc",
+    "prepublishOnly": "node_modules/.bin/tsc"
+  },
+  "keywords": [],
+  "author": "John Strand",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.21",
+    "react": "^16.12.0",
+    "typescript": "^3.7.5"
+  }
+}
